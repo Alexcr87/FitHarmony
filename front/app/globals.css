@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.containerInicial {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+*{
+    --principalColor: rgb(3, 2, 94);
+}
